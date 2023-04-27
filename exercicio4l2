@@ -1,0 +1,18 @@
+# include <stdio.h>
+
+
+int main(){
+    
+    // ex4    
+    int num1, num2;
+    
+    printf("Escreva aqui o número que você deseja imprimir na tela: \n");
+    scanf("%d", &num1);
+    printf("Escreva aqui o segundo número que você deseja imprimir na tela: \n");
+    scanf("%d", &num2);    
+    printf("O número que você digitou é: %d logo depois %d\n", num1, num2);
+    
+    return 0;
+    
+}
+
